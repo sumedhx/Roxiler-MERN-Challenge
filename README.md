@@ -1,13 +1,13 @@
 # Roxiler-MERN-Challenge   
 
 **Tech Used**    
-  **Front-End**    
-    React   
-  **Back-End**   
-    Node   
-    MongoDb   
-    Mongoose   
-    Express    
+  &nbsp**Front-End**    
+    &nbspReact   
+  &nbsp**Back-End**   
+    &nbspNode   
+    &nbspMongoDb   
+    &nbspMongoose   
+    &nbspExpress    
 
 **ScreenShots** .
 
