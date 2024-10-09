@@ -2,7 +2,7 @@
 
 **Tech Used**    
   **Front-End**    
--   React
+-   React     
   **Back-End**
 -   MongoDB
 -   Mongoose
