@@ -1,17 +1,17 @@
-# Roxiler-MERN-Challenge
+# Roxiler-MERN-Challenge .
 
-**Tech Used**
-  **Front-End**
-    React
-  **Back-End**
-    Node
-    MongoDb
-    Mongoose
-    Express
+**Tech Used** .
+  **Front-End** .
+    React .
+  **Back-End** .
+    Node .
+    MongoDb .
+    Mongoose .
+    Express .
 
-**ScreenShots**
+**ScreenShots** .
 
-  **Transactions**
+  **Transactions** 
   ![Roxiler Transactions Dashboard · 5 11pm · 10-09](https://github.com/user-attachments/assets/115996ea-2971-4cd4-928c-032f8b796349)
 
   **Stats**
