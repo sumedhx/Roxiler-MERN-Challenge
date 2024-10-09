@@ -1,0 +1,156 @@
+* {
+  /* border: 1px solid black; */
+}
+
+.layout {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; /* Ensures the layout flows vertically */
+}
+
+.header {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  background-color: #001F3F; /* Dark Blue */
+  color: #F8F9FA; /* Soft Gray */
+  padding: 0 2rem;
+  margin-bottom: 3rem;
+}
+
+.header-title {
+  margin-right: auto;
+}
+
+.nav {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link {
+  color: #F8F9FA; /* Soft Gray */
+  text-decoration: none;
+}
+
+.month-select {
+  margin-left: 20px;
+  width: 10%;
+  height: 2rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.content {
+  padding: 20px;
+  background-color: white;
+  min-height: 600px;
+  flex-grow: 1; /* Allow the content area to grow and fill space */
+}
+
+.footer {
+  width: 100%;
+  position: relative; /* Changed from absolute */
+  background-color: #001F3F; /* Dark Blue */
+  color: #F8F9FA; /* Soft Gray for text */
+  text-align: center;
+  padding: 16px;
+  margin-top: auto; /* Pushes footer to the bottom */
+}
+
+.stats-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.charts-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px; 
+}
+
+.totals {
+  min-width: 720px;
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  padding: 12px 0;
+}
+
+.totals-stats {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+}
+
+.totals-stats p {
+  font-size: 1.5rem;
+}
+
+/* Transactions Table Styles */
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactions-table th,
+.transactions-table td {
+  border: 1px solid #dadada;
+  padding: 8px;
+}
+
+.search-input {
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+}
+
+/* Pagination Styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-btn {
+  background-color: #007bff; 
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.page-btn:hover:not(:disabled) {
+  background-color: #0056b3; 
+}
+
+.page-btn:disabled {
+  background-color: #cccccc; 
+  cursor: not-allowed;
+}
+
+.page-btn.active {
+  background-color: #0056b3; 
+}
